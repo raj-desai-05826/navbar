@@ -1,0 +1,82 @@
+.bnr-img3 {
+    height: 59rem;
+}
+
+main {
+    padding: 0 9%;
+}
+
+main:nth-child(even) {
+    background: #eee;
+}
+
+.sld {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* padding-top: 2rem; */
+}
+
+.content {
+    flex: 1 1 45rem;
+    padding-left: 3rem;
+}
+
+.image {
+    flex: 1 1 45rem;
+}
+
+.image img {
+    width: 100%;
+}
+
+.content span {
+    color: var(--blue);
+    font-size: 2.5rem;
+}
+
+.content h3 {
+    color: var(--black);
+    font-size: 7rem;
+}
+
+.content p {
+    color: var(--light-color);
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
+.odr-btn {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+    transition: .2s linear;
+}
+
+.odr-btn:hover {
+    background: var(--blue);
+    box-shadow: 0px 0px 20px var(--black);
+    transform: scale(1.15);
+}
+
+.product {
+    padding: 0 9%;
+    padding-left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    overflow: hidden;
+}
+
+.product-box {
+    height: 27rem;
+    /* width: 30rem; */
+    border: .1px solid black;
+}

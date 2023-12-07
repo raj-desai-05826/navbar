@@ -1,0 +1,162 @@
+<!-- 
+
+    jay shree ganesh ;
+    jay shree krishna ;
+    jay shree ram;
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadeShyam Shop's</title>
+    <!-- link font ausome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link sliderJS framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+
+    <!-- link custome .css file -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <!-- header start -->
+
+    <header>
+        <h1 href="#" class="logo"><i class="fa-solid fa-shop"></i> RadeShyam</h1>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="navigation">home</a>
+            <a href="#product" class="navigation">products</a>
+            <a href="#" class="navigation">offers</a>   
+            <a href="#" class="navigation">about</a>
+            <a href="#" class="navigation">contact</a>
+            <a href="#" class="navigation">help</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-bars bars" id="bars"></i>
+            <i class="fa-solid fa-times close" id="close"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-cart-shopping"></a>
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
+
+
+    <!-- main tag starts -->
+
+    <main id="home">
+
+          <div class="swp swiper mySwiper">
+            <div class="wpr swiper-wrapper">
+
+                <div class="sld swiper-slide">
+                    <div class="content">
+                        <span>Flat 45% Off</span>
+                        <h3>Victus Laptop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor libero maxime nobis.</p>
+                        <a href="#" class="odr-btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                      <img src="images/banner/bnr1.png" alt="Laptop" class="bnr-img1">
+                    </div>
+                </div>
+
+                <div class="sld swiper-slide">
+                  <div class="content">
+                      <span>Flat 50% Off</span>
+                      <h3>Smart Watch</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor libero maxime nobis.</p>
+                      <a href="#" class="odr-btn">Order Now</a>
+                  </div>
+                  <div class="image">
+                    <img src="images/banner/bnr2.png" alt="Smart Watch" class="bnr-img2">
+                  </div>
+              </div>
+              <div class="sld"></div>
+              <div class="sld"></div>
+
+              <div class="sld swiper-slide">
+                <div class="content">
+                    <span>Flat 55% Off</span>
+                    <h3>Dress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor libero maxime nobis.</p>
+                    <a href="#" class="odr-btn">Order Now</a>
+                </div>
+                <div class="image">
+                  <img src="images/banner/bnr3.png" alt="Dress" class="bnr-img3">
+                </div>
+            </div>
+
+            </div>
+
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+
+          <section class="product">
+
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+            <div class="product-box"></div>
+
+          </section>
+
+    </main>
+
+    <!-- main tag end -->
+
+
+
+
+
+    
+
+
+
+    <!-- link .JS bundol of SliderJS framework -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- link custome javascript file -->
+    <script src="js/navbar.js"></script>
+    <script src="js/home.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 5500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+</body>
+</html>
